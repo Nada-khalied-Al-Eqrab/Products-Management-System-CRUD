@@ -5,7 +5,7 @@ We welcome all contributions that can help improve the project 🚀
 
 ---
 
-## 📌 How to Contribute
+##  How to Contribute
 
 1. **Fork the repository**  
    - Click the **Fork** button on the top right of this repository.  
@@ -42,7 +42,7 @@ We welcome all contributions that can help improve the project 🚀
 
 ---
 
-## ✅ Contribution Guidelines
+##  Contribution Guidelines
 
 - Use **Vanilla JavaScript** (no frameworks).  
 - Keep the code **clean and well-commented**.  
@@ -51,7 +51,7 @@ We welcome all contributions that can help improve the project 🚀
 
 ---
 
-## 🌱 Future Features (You Can Contribute To)
+##  Future Features (You Can Contribute To)
 
 - User authentication (login system)  
 - Dark/Light mode toggle  
@@ -61,4 +61,4 @@ We welcome all contributions that can help improve the project 🚀
 
 ---
 
-We appreciate your time and effort in helping this project grow ❤️  
+We appreciate your time and effort in helping this project grow  
