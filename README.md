@@ -22,11 +22,6 @@ It follows the **CRUD operations** (Create, Read, Update, Delete) and allows use
 
 ---
 
-## Screenshot
-(Add a screenshot of your app here if available)
-
----
-
 ## Demo Video
 You can watch the project demo on YouTube here:  
 [Watch on YouTube](PUT-YOUR-YOUTUBE-LINK-HERE)
