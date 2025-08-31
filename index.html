@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Management System</title>
+    <!-- style.css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!--start crud -->
+    <div class="crud">
+        <!-- start head -->
+        <div class="head">
+            <h2> crud</h2>
+            <p>Products Management System</p>
+        </div>
+        <!-- end head -->
+        <!--start inputs  -->
+        <div class="inputs">
+            <input type="text" id="title" placeholder="title">
+            <!-- start price -->
+            <div class="price">
+                <input onkeyup="getTotal()" type="number" id="price" placeholder="price">
+                <input onkeyup="getTotal()" type="number" id="taxes" placeholder="taxes">
+                <input onkeyup="getTotal()" type="number" id="ads" placeholder="ads">
+                <input onkeyup="getTotal()" type="number" id="discounts" placeholder="discounts">
+                <small id="total"></small>
+            </div>
+            <!-- end price -->
+            <input type="number" id="count" placeholder="count">
+            <input type="text" id="category" placeholder="category">
+            <!-- start create button -->
+            <button id="submit"> Create</button>
+            <!-- end create button -->
+        </div>
+        <!--end inputs -->
+        <!--start outputs -->
+        <div class="outputs">
+            <!-- start search -->
+            <div class="searchBlock">
+                <input type="text" id="search" placeholder="search" onkeyup="searchData(this.value)">
+                <!-- start search buttons -->
+                <div class="btnSearch">
+                    <button onclick="getSearchMood(this.id)" id="searchTitle">Search By Title</button>
+                    <button onclick="getSearchMood(this.id)" id="searchCategory">Search By Category</button>
+                </div>
+                <!-- end search buttons -->
+            </div>
+            <!-- end search -->
+            <!-- start deleteAll js buttons -->
+            <br>
+            <div id="deleteAll"> </div>
+            <!-- end deleteAll js buttons -->
+            <!-- start table -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>id</th>
+                        <th>title</th>
+                        <th>price</th>
+                        <th>taxes</th>
+                        <th>ads</th>
+                        <th>discount</th>
+                        <th>total</th>
+                        <th>category</th>
+                        <th>update</th>
+                        <th>delete</th>
+                    </tr>
+                </thead>
+                <!-- start tbody js -->
+                <tbody id="tbody">
+
+                </tbody>
+                <!-- end tbody js -->
+            </table>
+            <!-- end table -->
+        </div>
+        <!--end outputs  -->
+    </div>
+    <!--end crud -->
+    <!-- start footer -->
+    <footer>
+        <p> جميع حقوق الطبع و النشر محفوظة للمبرمجة <a href="">ندى العقرب</a>©</p>
+    </footer>
+    <!-- end footer -->
+    <!-- script js -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
